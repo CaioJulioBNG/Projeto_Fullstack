@@ -1,0 +1,42 @@
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    position: fixed;            /* Fixa o container no 'topo'*/
+    top: 0;                     /*Alinha o Container no Topo*/
+    width: 100%;                /*Faz o Container ocupar 100 % da tela*/
+    z-index: 1000;              /*Faz ele ficar em cima dos outros*/
+}
+
+.navbar-search-bar {
+    width: 50%;                  /*Tamanho que a search bar ocupa 'horizontalmente'*/
+    padding: 10px;               /*Tamanho 'interno' altura x largura*/
+    border: 10px solid black;  /*Borda da search bar*/
+    border-radius: 100px;        /*'Arrendonda' a search-bar*/
+    font-size: 16px;             /* Fonte interna*/
+}
+
+.navbar-logo {
+    width: 3%;
+    height: 3%;
+    padding: 10px;
+    border: 1px;
+    font-size: 16px;
+}
+
+.button-1 {
+    padding: 5px 20px;           /*Tamanho 'interno' altura x largura*/
+    margin-top: 0.75%;           /*Tamanho da Margem Superior*/
+    margin-bottom: 0.75%;        /*Tamanho da Margem Inferior*/
+    margin-left: 30%;            /*Tamanho da Margem Esquerda*/   
+    border: none;                /*Sem Borda*/
+    background-color: #1732ac; /* Cor de Fundo*/
+    color: white;              /* Cor do Texto*/
+    border-radius: 20px;         /*'Arrendonda' o botao*/
+    cursor: pointer;             /* Muda o tipo de cursor*/
+}
+
+.button-1:hover {                /*:hover: quando o mouse passa por cima*/
+    background-color: #218838;
+}
+
